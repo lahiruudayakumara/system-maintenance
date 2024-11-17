@@ -1,0 +1,35 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temp files
+*.bak
+*.swp
+*.tmp
+
+# Ignore log files
+logs/
+
+# Ignore config files that might contain sensitive information
+# config/
+
+# Ignore compiled files
+*.o
+*.out
+*.class
+
+# Ignore zip files
+*.zip
+
+# Ignore node_modules if using Node.js (for future expansions)
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore the reports folder if you don't want to commit generated reports
+reports/
+
+# Ignore IDE specific files (e.g. VSCode, IntelliJ)
+.vscode/
+.idea/
